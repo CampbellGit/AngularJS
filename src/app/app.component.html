@@ -1,8 +1,10 @@
 <h1>
   {{title}}
-    {{philippe}}
+
     
     
 </h1>
 
-<app-first></app-first>
+<app-search-box placeholder="new custom placeholder"></app-search-box>
+<app-color-picker #picker (color)="onColor($event)"></app-color-picker>
+<button (click)="picker.reset()">Reset</button>

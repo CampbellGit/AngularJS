@@ -8,4 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
   philippe = 'Josie ! Reviens !';
+
+
+  onColor(color) {
+    console.log(`couleur : ` + color);
+  }
+    
+//  reset(color) {
+//    color.value = "";
+//  }
 }

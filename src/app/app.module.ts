@@ -5,11 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { FirstComponent } from './first/first.component';
+import { SearchBoxComponent } from './search-box/search-box.component';
+import { ColorPickerComponent } from './color-picker/color-picker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstComponent
+    FirstComponent,
+    SearchBoxComponent,
+    ColorPickerComponent
   ],
   imports: [
     BrowserModule,
